@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0fbbe1-1b04-45f5-9eeb-8e5119ca3c63" name="Default Changelist" comment="project files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/NewPatient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/NewPatient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/NewPatient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/NewPatient$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/NewPatient$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/NewPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/NewPatient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/PatPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/PatPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PatPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PatPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="106" column="79" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="79" />
+            <state relative-caret-position="248">
+              <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1100#1273#0" expanded="true" />
@@ -98,14 +91,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NewPatient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="193" column="56" selection-start-line="193" selection-start-column="56" selection-end-line="193" selection-end-column="56" />
+            <state relative-caret-position="292">
+              <caret line="193" column="49" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1539#1715#0" expanded="true" />
                 <element signature="e#1714#1715#0" expanded="true" />
-                <element signature="e#11386#11387#0" expanded="true" />
-                <element signature="e#11451#11452#0" expanded="true" />
+                <element signature="e#11394#11395#0" expanded="true" />
+                <element signature="e#11459#11460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,8 +200,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="954" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -241,7 +234,7 @@
               <item name="Hospital-Management" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hospital-Management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="StartPage" type="e9f4de52:FormNode" />
+              <item name="NewPatient" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -347,18 +340,18 @@
       <workItem from="1567554928372" duration="1577000" />
       <workItem from="1567678865268" duration="7524000" />
       <workItem from="1567774932241" duration="516000" />
-      <workItem from="1567775530834" duration="12016000" />
+      <workItem from="1567775530834" duration="13543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85198000" />
+    <option name="totallyTimeSpent" value="86725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -669,31 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PatPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="106" column="79" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1100#1273#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1746#1923#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StartPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="60" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -707,16 +679,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PatPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1100#1273#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1746#1923#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NewPatient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="193" column="56" selection-start-line="193" selection-start-column="56" selection-end-line="193" selection-end-column="56" />
+        <state relative-caret-position="292">
+          <caret line="193" column="49" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1539#1715#0" expanded="true" />
             <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#11386#11387#0" expanded="true" />
-            <element signature="e#11451#11452#0" expanded="true" />
+            <element signature="e#11394#11395#0" expanded="true" />
+            <element signature="e#11459#11460#0" expanded="true" />
           </folding>
         </state>
       </provider>
