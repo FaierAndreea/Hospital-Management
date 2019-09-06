@@ -18,6 +18,7 @@ public class PatPage extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         displayArea = new javax.swing.JTextArea();
         seeInfoButton = new javax.swing.JButton();
+        newpLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -26,6 +27,16 @@ public class PatPage extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(240, 240, 240));
         jLabel1.setText("Your ID");
+
+        newpLabel.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        newpLabel.setForeground(new java.awt.Color(240, 240, 240));
+        newpLabel.setText("  I am new");
+        newpLabel.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                newpLabelMouseClicked(evt);
+            }
+        });
+
 
         displayArea.setEditable(false);
         displayArea.setBackground(new java.awt.Color(73, 10, 10));
@@ -53,7 +64,9 @@ public class PatPage extends javax.swing.JFrame {
                                         .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addComponent(jLabel1)
                                                 .addGap(18, 18, 18)
-                                                .addComponent(patID, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addComponent(patID, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(newpLabel)
+                                                .addGap(5,5,5))
                                         .addComponent(seeInfoButton))
                                 .addContainerGap(120, Short.MAX_VALUE))
         );
@@ -63,7 +76,9 @@ public class PatPage extends javax.swing.JFrame {
                                 .addGap(26, 26, 26)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(jLabel1)
-                                        .addComponent(patID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(patID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(newpLabel)
+                                        .addGap(5,5,5))
                                 .addGap(30, 30, 30)
                                 .addComponent(seeInfoButton)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
@@ -119,6 +134,12 @@ public class PatPage extends javax.swing.JFrame {
 
     }
 
+    private void newpLabelMouseClicked(java.awt.event.MouseEvent evt) {
+        DocPassPage docPassPage=new DocPassPage();
+        docPassPage.setVisible(true);
+        docPassPage.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.dispose();
+    }
 
 
     // Variables declaration - do not modify
@@ -128,5 +149,6 @@ public class PatPage extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField patID;
     private javax.swing.JButton seeInfoButton;
+    private javax.swing.JLabel newpLabel;
     // End of variables declaration
 }
