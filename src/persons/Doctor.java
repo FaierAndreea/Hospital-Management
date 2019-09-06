@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 public class Doctor extends Person{
     private int id;
     private String speciality;
-    private final String password="12345";
+    private static final String password="12345";
 
     public int getId() {
         return id;
