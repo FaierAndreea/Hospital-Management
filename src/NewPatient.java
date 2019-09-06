@@ -1,3 +1,9 @@
+import javax.swing.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 public class NewPatient extends javax.swing.JFrame {
 
 
@@ -33,17 +39,12 @@ public class NewPatient extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(240, 240, 240));
         jLabel1.setText("Please, sign up here:");
 
-        genderTextField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                //genderTextFieldActionPerformed(evt);
-            }
-        });
 
         signupButton.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
         signupButton.setText("Sign Up");
-        signupButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                //signupButtonActionPerformed(evt);
+        signupButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                signupButtonMouseClicked(evt);
             }
         });
 
@@ -151,32 +152,23 @@ public class NewPatient extends javax.swing.JFrame {
     }// </editor-fold>
 
 
-    public static void main(String args[]) {
 
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(NewPatient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(NewPatient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(NewPatient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(NewPatient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    private void signupButtonMouseClicked(java.awt.event.MouseEvent evt) {
+        String fulln=fullnameTextField.getText();
+        String gend=genderTextField.getText();
+        String age=ageTextField.getText();
+        String addr=addressTextField.getText();
+        String phone=phoneTextField.getText();
+        String blood=bloodTextField.getText();
+        try(Connection connection=DbConnection.getInstance().getConnection()) {
+            String sSQL="insert into patients (fullname_pat,gender_pat,age_pat,address_pat,phone_pat,bloodtype_pat) values('"+fulln+"','"+gend+"',"+age+",'"+addr+"','"+phone+"','"+blood+"');";
+            Statement statement=connection.createStatement();
+            statement.executeUpdate(sSQL);
+            JOptionPane.showMessageDialog(this,"Welcome!");
+
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-        //</editor-fold>
-
-
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new NewPatient().setVisible(true);
-            }
-        });
     }
 
     // Variables declaration - do not modify

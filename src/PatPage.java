@@ -134,9 +134,9 @@ public class PatPage extends javax.swing.JFrame {
     }
 
     private void newpLabelMouseClicked(java.awt.event.MouseEvent evt) {
-        DocPassPage docPassPage=new DocPassPage();
-        docPassPage.setVisible(true);
-        docPassPage.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        NewPatient newPatient=new NewPatient();
+        newPatient.setVisible(true);
+        newPatient.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.dispose();
     }
 
