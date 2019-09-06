@@ -18,7 +18,7 @@ public class PatPage extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         displayArea = new javax.swing.JTextArea();
         seeInfoButton = new javax.swing.JButton();
-        newpLabel = new javax.swing.JLabel();
+        newpLabel = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -28,9 +28,8 @@ public class PatPage extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(240, 240, 240));
         jLabel1.setText("Your ID");
 
-        newpLabel.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        newpLabel.setForeground(new java.awt.Color(240, 240, 240));
-        newpLabel.setText("  I am new");
+        newpLabel.setFont(new java.awt.Font("Tahoma", 1, 15));
+        newpLabel.setText("I am new");
         newpLabel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 newpLabelMouseClicked(evt);
@@ -149,6 +148,6 @@ public class PatPage extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField patID;
     private javax.swing.JButton seeInfoButton;
-    private javax.swing.JLabel newpLabel;
+    private javax.swing.JButton newpLabel;
     // End of variables declaration
 }

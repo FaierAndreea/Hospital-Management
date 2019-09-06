@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e0fbbe1-1b04-45f5-9eeb-8e5119ca3c63" name="Default Changelist" comment="project files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hospital/persons/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hospital/persons/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PatPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="0e0fbbe1-1b04-45f5-9eeb-8e5119ca3c63" name="Default Changelist" comment="project files" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -76,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PatPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2312">
@@ -344,15 +338,16 @@
       <workItem from="1567554928372" duration="1577000" />
       <workItem from="1567678865268" duration="7524000" />
       <workItem from="1567774932241" duration="516000" />
-      <workItem from="1567775530834" duration="7137000" />
+      <workItem from="1567775530834" duration="7380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80319000" />
+    <option name="totallyTimeSpent" value="80562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -650,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/persons/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -697,6 +685,13 @@
             <element signature="e#1746#1923#0" expanded="true" />
             <element signature="e#1922#1923#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
